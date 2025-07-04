@@ -1,6 +1,2 @@
 openpyxl
 pandas
-fitz
-threading
-queue
-concurrent
