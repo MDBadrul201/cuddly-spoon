@@ -1,5 +1,4 @@
 openpyxl
-tkinter
 pandas
 fitz
 threading
