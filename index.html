@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Page Extractor</title>
+</head>
+<body>
+  <h2>PDF Extractor (Web Version)</h2>
+  <form action="/extract" method="POST" enctype="multipart/form-data">
+    <label>Excel File:</label>
+    <input type="file" name="excel_file" required><br><br>
+
+    <label>PDF File:</label>
+    <input type="file" name="pdf_file" required><br><br>
+
+    <label>Output Folder Path (on server):</label>
+    <input type="text" name="output_dir" required><br><br>
+
+    <input type="submit" value="Extract Pages">
+  </form>
+</body>
+</html>
