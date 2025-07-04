@@ -1,9 +1,0 @@
-openpyxl
-re
-os
-tkinter
-pandas
-fitz
-threading
-queue
-concurrent
